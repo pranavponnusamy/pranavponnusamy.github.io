@@ -164,3 +164,46 @@ nav ul li a:hover {
         margin-right: 0;
     }
 }
+
+footer {
+    padding: 80px 20px; /* Adjust padding as needed */
+    background-color: rgba(255, 255, 255, 0.564);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.footer-content {
+    position: absolute;
+    left: 20px; /* Adjust distance from the left edge */
+}
+
+.footer-text {
+    margin: 0;
+    padding-left: 60px; /* Adjust padding to center text properly */
+}
+
+.friend-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16 px;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.friend-button:hover {
+    background-color: #0056b3;
+}
